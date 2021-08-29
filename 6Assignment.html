@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>About div</title>
+    <style>
+        *{
+            padding: 0;margin: 0;box-sizing: border-box;
+        }
+        #container
+        {
+            display: inline-flex;
+        }
+        .box
+        {
+            width: 300px;
+            height: 400px;
+            overflow: hidden;
+            border: 2px solid black ;
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 10px;
+
+        }
+        #box1
+        {
+            background-color: yellow;
+        }
+        #box2
+        {
+            background-color: palevioletred;
+        }
+        #box3
+        {
+            background-color:orange;
+        }
+        #box4
+        {
+            background-color:greenyellow;
+        }
+        .box img
+        {
+            width: 100%;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .box h3{
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .mybutton
+        {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+        .mybutton:hover
+        {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="box" id="box1">
+        <div class="image-heading">
+            <img src="./cardlp/htmlyash.jpg" alt=""/>
+        </div>
+    <h3>Introduction to HTML</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus in commodi earum dolores dolor, repellendus eum sequi maiores alias nobis porro laboriosam deserunt tempora molestias consequatur.</p>
+    <div class="image" style="text-align: center;">
+        <a href="https://www.w3schools.com/" class="mybutton">Read More</a>
+    </div>
+    </div>
+    <div id="container">
+            <div class="box" id="box2">
+                <div class="image-heading">
+                    <img src="./cardlp/cssyash.jpg" alt=""/>
+                </div>
+    <h3>Introduction to CSS</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus in commodi earum dolores dolor, repellendus eum sequi maiores alias nobis porro laboriosam deserunt tempora molestias consequatur.</p>
+    <div class="image" style="text-align: center;">
+        <a href="https://www.w3schools.com/" class="mybutton">Read More</a>
+    </div>
+    </div>
+    <div id="container">
+            <div class="box" id="box3">
+                <div class="image-heading">
+                    <img src="./cardlp/jqueryyash.jpg" alt=""/>
+                </div>
+    <h3>Introduction to JavaScript</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus in commodi earum dolores dolor, repellendus eum sequi maiores alias nobis porro laboriosam deserunt tempora molestias consequatur.</p>
+    <div class="image" style="text-align: center;">
+        <a href="https://www.w3schools.com/" class="mybutton">Read More</a>
+    </div>
+    </div>
+     <div id="container">
+         <div class="box" id="box4">
+                <div class="image-heading">
+                    <img src="./cardlp/boostrapyash.jpg" alt=""/>
+                </div>
+    <h3>Introduction to Bootstrap</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus in commodi earum dolores dolor, repellendus eum sequi maiores alias nobis porro laboriosam deserunt tempora molestias consequatur.</p>
+    <div class="image" style="text-align: center;">
+        <a href="https://www.w3schools.com/" class="mybutton">Read More</a>
+    </div></div>
+  </div>
+</body>
+</html>

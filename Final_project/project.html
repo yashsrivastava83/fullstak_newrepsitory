@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        /* margin: 10px 10px 10px; */
+    }
+    
+    .nav {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        /* line-height: 40px; */
+    }
+    
+    .nav ul {
+        list-style: none;
+        float: right;
+    }
+    
+    .nav ul li {
+        /* display: inline-flex; */
+        padding: 0 20px 0 20px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .nav ul li a {
+        display: block;
+        padding: 0 15px;
+        color: white;
+        text-decoration: none;
+        line-height: 60px;
+        font-size: 20px;
+    }
+    
+    .nav ul ul {
+        position: absolute;
+        display: none;
+        top: 60px;
+    }
+    
+    .nav ul li:hover>ul {
+        display: block;
+    }
+    
+    .nav ul ul li {
+        /* width: 200px; */
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+    
+    #id1 li a {
+        text-align: center;
+    }
+    
+    .nav ul li a {
+        text-align: end;
+        text-decoration: none;
+        padding: 10px;
+        background-color: black;
+    }
+    
+    a:hover {
+    color : rgb(190, 46, 70);
+    } 
+    h1{
+        text-align: center;
+    }
+    h3{
+         text-align: center;
+    }
+    img{
+       
+        width: 200px;
+        height: 300px;
+        padding: 20px auto;
+        justify-content: center;
+        border-spacing: 5px;
+      float: right;
+      margin-right: 200px;
+        
+
+    } h4{
+        text-align: center;
+        size: 15px;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Scedule</a></li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Buy Tickets</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>HOTELS</h1>
+            <h3>Her are some nerby hotels</h3>
+            <div class="img">
+                <img src="./index.jpg" alt="">
+                <div>
+                <h4>Hotel 3</h4><i class="fas fa-star"></i>
+
+
+                <p>o.4 mile from venue</p>
+                </div>
+                
+
+
+
+            </div>
+
+            <div class="img">
+                <img src="./1.jpg" alt="">
+                <div>
+                <h4>Hotel 2</h4>
+                <i class="fas fa-star"></i>
+
+                <p>0.5mile from venue</p>
+            </div>
+                
+            </div>
+            <div class="img">
+                <img src="./2.jpg" alt="">
+                <div>
+                <h4>Hotel 1</h4>
+                <i class="fas fa-star"></i>
+
+                <p>0.6 mile from venue</p>
+            </div>
+                
+               
+
+            </div>
+
+           
+           
+
+        </div>
+    </div>
+</body>
+</html>
